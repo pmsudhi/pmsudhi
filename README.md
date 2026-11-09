@@ -139,17 +139,6 @@ whole checking envelope, which costs about 6 microseconds. It passes the officia
 suite: 39 of 39 for 2025-11-25 and 26 of 26 for 2025-06-18. That suite predates 2026-07-28, so that
 version is covered by Cameleer's own tests.
 
-Field test, 2026-11-07: a shop back office with 19 tools, 40 requests its staff would type, run through
-Claude and the official MCP Python SDK.
-
-| Model and protocol | Correct | Cost per request |
-| --- | ---: | ---: |
-| Claude Opus 5.5, sessions | 157 of 160 | about $0.026 |
-| Claude Opus 5.5, stateless | 39 of 40 | about $0.025 |
-| Claude Haiku 5.5, sessions | 104 of 120 | about $0.0007 |
-
-Across 200 Opus runs, none did an action twice, broke a rule, or ran a risky call without a yes.
-
 ### The trust layer: evidence of what is running
 
 An agent that calls a tool cannot normally tell which server, routes and tools are behind it. Inside a
