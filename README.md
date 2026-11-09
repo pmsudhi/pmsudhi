@@ -57,7 +57,6 @@ on-premise on commodity hardware, and builds the working model on top of the sys
 | **About 50x** | less memory for the same route (8 MB against 399 MB) |
 | **1.7x to 8.7x** | Camel's throughput in all 11 scenarios measured |
 | **41.6k tool calls/s** | MCP server throughput, 1.85x Apache Camel's, with every call checked, run once and audited |
-| **196 of 200** | field-test runs correct with Claude Opus 5.5 on 40 real requests, none acting twice |
 | **0 dependencies** | in Cameleer's 230 components, with 2,800+ tests |
 
 ## Merged upstream: HelixDB
